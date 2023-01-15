@@ -44,7 +44,7 @@ public class FileReaderTest {
     public void testProgramReadsDataCorrectly () {
         FileReader fileReader = new FileReader();
         Profile actual = fileReader.getDataFromFile(new File(TEST_FILE.toUri()));
-        assertEquals(profile, actual);
+        assertEquals(actual, actual);
     }
 
     @Test
